@@ -270,6 +270,14 @@ footer a:hover{
   color: var(--destaque-inverso);
 }
 
+a{
+  color: var(--destaque-inverso);
+}
+
+a:hover{
+  color: var(--destaque);
+}
+
 @media screen and (min-width: 768px) {
   main{
     grid-template-columns: auto 300px 1fr auto;
